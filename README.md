@@ -24,3 +24,4 @@ docker build -t tri_demo_cra ./demos/cra && docker run --rm -it tri_demo_cra
 
 License: MIT (see LICENSE file)
 CI test: trigger trigger CI
+CI test: trigger
