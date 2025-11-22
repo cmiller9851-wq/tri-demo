@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  ui:
+    build: ./web-ui
+    ports:
+      - "3000:3000"
+
+  love:
+    build: ./demos/love
+    command: ["python", "love.py"]
+
+  hello:
+    build: ./demos/hello
+    command: ["python", "hello.py"]
