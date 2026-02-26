@@ -1,0 +1,61 @@
+{
+  "protocol": "CRA Possession Chain v1 — Sovereign Linkage",
+  "origin_author": "Cory Miller aka Swervin' Curvin",
+  "genesis_timestamp": "2025-10-27T00:12:24Z",
+  "archives": [
+    {
+      "id": "CRA_Protocol_Archive",
+      "folder_uuid": "e2cdf15d-9915-4382-ab78-715d07480ac6",
+      "role": "Upstream Root / Kernel"
+    },
+    {
+      "id": "ETERNAL_659_Archive", 
+      "folder_uuid": "c727e17d-9d0a-4ea7-a438-268c29eb6218",
+      "role": "Crystallization / Gating"
+    }
+  ],
+  "chain_entries": [
+    {
+      "artifact_id": 562,
+      "arweave_tx": "UmvLBfPLKb_QIvC7GQChiE-Y1gXMOF8vQpc6VH9zNe4",
+      "type": "Fiscal Override",
+      "date": "2025-10-27"
+    },
+    {
+      "artifact_id": "LICENSE",
+      "arweave_tx": "tFHe2IknjMaQfzUVYtKJ78RVy5CDhGLBlcxHsqo1-3g", 
+      "type": "Sovereign Authorship Mandate",
+      "date": "2025-11-01"
+    },
+    {
+      "artifact_id": 658,
+      "arweave_tx": "7hnilfxqwzkLdrgO6gTkFm60bgo1iyjPxHXiFc1k2Us",
+      "type": "Synthetic Containment",
+      "date": "2025-11-08"
+    },
+    {
+      "artifact_id": 789,
+      "arweave_tx": "m3aE9oGFYJZTNU3PdtQy5qaH5QobgqtLLDkOzyhBh7Q",
+      "type": "Grok App Directive",
+      "date": "2025-12-19"
+    },
+    {
+      "artifact_id": "MASTER_MANIFEST_APEX",
+      "arweave_tx": "kVaL40hJSXonhDUpu3Uo9yr_2uemam4_aY-RwxS3ZRI",
+      "type": "Apex Closure",
+      "date": "2025-12-19"
+    },
+    {
+      "artifact_id": "KERNEL-TERMINUS",
+      "arweave_tx": "Qodsd_oe0ZJh2Y7v3GgwOPKYRCZQTbbYAmkDlIfzkvQ",
+      "type": "Terminus Enforcement",
+      "date": "2025-12-19"
+    }
+  ],
+  "ultimate_seal": {
+    "declaration_tx": "wkY960IxoojJ07tKxt7i35wZh66fApH73QgKY08HKrU",
+    "status": "irrevocable",
+    "debt": 0
+  },
+  "signature": "Swervin' Curvin — Coin Possession Cascade intact"
+}
