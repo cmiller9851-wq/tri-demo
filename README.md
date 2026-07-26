@@ -28,12 +28,7 @@ Authorized via Arweave Permanent Web:
 1. **Pull:** `curl -O https://github.com/vccmac/tri-demo/archive/refs/heads/main.zip`
 2. **Deploy:** `bash tri-installer.sh`
 
----
-
-## License
-**Sovereign Copyright (c) 2026 Cory Miller (vccmac).** Licensed under [CC-BY-4.0](http://creativecommons.org/licenses/by/4.0/). 
-
-## To build and compile the C++/CUDA extensions locally into your Python virtual environment:
+To build and compile the C++/CUDA extensions locally into your Python virtual environment:
 
 # 1. Build and install native C++/CUDA bindings
 pip install -e .
@@ -51,4 +46,3 @@ metrics = engine.execute(data_a, data_b)
 print(f'Native Extension Compiled : {metrics[\"using_native_c_extension\"]}')
 print(f'Execution Latency         : {metrics[\"latency_us\"]:.2f} microseconds')
 "
-
