@@ -32,3 +32,23 @@ Authorized via Arweave Permanent Web:
 
 ## License
 **Sovereign Copyright (c) 2026 Cory Miller (vccmac).** Licensed under [CC-BY-4.0](http://creativecommons.org/licenses/by/4.0/). 
+
+## To build and compile the C++/CUDA extensions locally into your Python virtual environment:
+
+# 1. Build and install native C++/CUDA bindings
+pip install -e .
+
+# 2. Run high-throughput execution benchmark
+python -c "
+import torch
+from nvidia_cuda_accelerator.accelerator import HighThroughputAccelerator
+
+data_a = torch.randn(1024, 1024)
+data_b = torch.randn(1024, 1024)
+
+engine = HighThroughputAccelerator(device_id=0, matrix_dim=1024)
+metrics = engine.execute(data_a, data_b)
+print(f'Native Extension Compiled : {metrics[\"using_native_c_extension\"]}')
+print(f'Execution Latency         : {metrics[\"latency_us\"]:.2f} microseconds')
+"
+
